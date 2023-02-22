@@ -1,6 +1,6 @@
 import { Link } from 'react';
 
-const MainPage = () => {
+const Header = () => {
     return (
        <div className="main">
             <header className="header">
@@ -17,9 +17,18 @@ const MainPage = () => {
                         <Link to class="lang-switcher__link" href="url">en</Link>
                     </li>
                 </ul>
+                <button className='button basket'>
+                    <Link to class="basket__link" href="url"></Link>
+                </button>
+                <button className='button profile'>
+                    <Link to class="profile__link" href="url"></Link>
+                </button>
+                <button className='button favorites'>
+                    <Link to class="favorites__link" href="url"></Link>
+                </button>
             </header>
        </div> 
     );
 };
 
-export default MainPage;
+export default Header;
