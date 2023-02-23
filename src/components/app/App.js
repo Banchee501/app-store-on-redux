@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes } from 'react-router-dom';
 
-import MainPage from '../pages/MainPage';
+import MainPage from '../pages/mainPage/MainPage';
 
 function App() {
   return (
@@ -8,13 +8,8 @@ function App() {
       <div className="app">
         <main>
           <Routes>
-            <Route path="/" element={<MainPage/>}/>
-            {/* <Route exact path="/catalog" element={<CatalogPage/>}/>
-            <Route path="/catalog/:id" element={<Products/>}/>
-            <Route path="/basket" element={<Basket/>}/>
-            <Route exact path="/profile" element={<Profile/>}/>
-            <Route path="/login/profile" element={<SignIn/>}/>
-            <Route path="*" element={<Page404 />} /> */}
+            {/* <Route path="/" element={<MainPage/>}/> */}
+            <MainPage/>
           </Routes>
         </main>
       </div>
