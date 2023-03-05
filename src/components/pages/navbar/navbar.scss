@@ -1,0 +1,25 @@
+.nav {
+    &-list {
+        display: flex;
+        justify-content: space-evenly;
+        width: 1010px;
+        padding-top: 20px;
+        margin: auto;
+        &__item {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 22px;
+            a {
+                color: white;
+            }
+        }
+    }
+
+
+    .activeStyle {
+        background-color: #FFFFFF;
+        color: black;
+    }
+}

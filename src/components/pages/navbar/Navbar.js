@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 
+import './navbar.scss'
+
 const Navbar = () => {
     let activeStyle = {
         textDecoration: "none",
@@ -8,6 +10,9 @@ const Navbar = () => {
       return (
         <nav className="nav">
             <ul className="nav-list">
+                <li className="nav-list__item">
+                    <NavLink to="main" style={({ isActive }) => isActive ? activeStyle : null}>ГОЛОВНА</NavLink>
+                </li>
                 <li className="nav-list__item">
                     <NavLink to="services" style={({ isActive }) => isActive ? activeStyle : null}>ПОСЛУГИ</NavLink>
                 </li>

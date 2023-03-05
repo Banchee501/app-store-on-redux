@@ -24,15 +24,17 @@ const Header = () => {
                     <Link to="/main" class="lang-switcher__link" href="url">en</Link>
                 </li>
             </ul>
-            <button className='button basket'>
-                <Link to="/main" class="basket__link" href="url"></Link>
-            </button>
-            <button className='button profile'>
-                <Link to="/main" class="profile__link" href="url"></Link>
-            </button>
-            <button className='button favorites'>
-                <Link to="/main" class="favorites__link" href="url"></Link>
-            </button>
+            <div className="button__item">
+                <button className='button basket'>
+                    <Link to="/main" class="basket__link" href="url"></Link>
+                </button>
+                <button className='button profile'>
+                    <Link to="/main" class="profile__link" href="url"></Link>
+                </button>
+                <button className='button favorites'>
+                    <Link to="/main" class="favorites__link" href="url"></Link>
+                </button>
+            </div>
         </header>
     );
 };
