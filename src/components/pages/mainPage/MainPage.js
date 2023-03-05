@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import Header from "../Header";
+import Header from "../header/Header";
 import Navbar from "../Navbar";
 
 import triangle from '../../../resources/triangle.svg';
@@ -16,8 +16,8 @@ const MainPage = () => {
         <Navbar/>
         <div className="main">
             <div className="main-description">
-                <div className="main-description__title">masons <span>branding</span> wordshop</div>
-                <div className="main-description__subtitle">Високоякісний друк \\n Брендування одягу та аксесуарів</div>
+                <p className="main-description__title">masons <span>branding</span> wordshop</p>
+                <p className="main-description__subtitle">Високоякісний друк \\n Брендування одягу та аксесуарів</p>
                 <button className='button catalog'>
                     <Link to='/catalog'>КАТАЛОГ</Link>
                 </button>

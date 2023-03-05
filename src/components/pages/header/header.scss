@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1010px;
+    margin: 20px auto auto;
+    .search-form {
+        margin-right: 173px;
+        &__input {
+            width: 225px;
+            height: 30px;
+            border: 1px solid #FFFFFF;
+            border-radius: 15px;
+            background: black;
+        }
+    }
+    .logo {
+
+    }
+    .lang-switcher {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 33px 0 218px ;
+        width: 66px;
+        &__item {
+            
+        }
+    }
+    .button {
+        width: 25px;
+        height: 25px;
+        background: black;
+        border: none;
+    }
+    .basket {
+        background-image: url(../../../resources/shopIcon.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        &__link {
+
+        }
+    }
+    .profile {
+        background-image: url(../../../resources/profieIcon.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        &__link {
+            
+        }
+    }
+    .favorites {
+        background-image: url(../../../resources/favoritesIcon.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        &__link {
+            
+        }
+    }
+}
+
