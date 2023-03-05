@@ -1,3 +1,5 @@
+This project is written using Typescript, React, Redux, as well as the backend on Node.js and using MongoDB as a database.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
