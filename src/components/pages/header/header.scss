@@ -12,55 +12,61 @@
             height: 30px;
             border: 1px solid #FFFFFF;
             border-radius: 15px;
-            background: black;
+            background: rgba(0, 0, 0, 0);
+            color: #FFFFFF;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            padding-left: 32px;
         }
-    }
-    .logo {
-
     }
     .lang-switcher {
         display: flex;
         justify-content: space-evenly;
         margin: 0 33px 0 218px ;
         width: 66px;
+        align-items: center;
         &__item {
-            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            a {
+                color: #FFFFFF;
+            }
         }
     }
 
     .button {
         width: 25px;
         height: 25px;
-        background: black;
+        background: rgba(0, 0, 0, 0);
         padding: 0;
         &__item {
             display: flex;
-            width: 80px;
+            width: auto;
         }
     }
     .basket {
         background-image: url(../../../resources/shopIcon.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        &__link {
-
-        }
+        margin-right: 10px;
     }
     .profile {
         background-image: url(../../../resources/profieIcon.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        &__link {
-            
-        }
+        margin-right: 10px;
     }
     .favorites {
         background-image: url(../../../resources/favoritesIcon.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        &__link {
-            
-        }
+        margin-right: 10px;
     }
 }
 
