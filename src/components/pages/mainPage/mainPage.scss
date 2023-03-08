@@ -51,22 +51,20 @@
 			color: #1C1C1C;
 		}
 	}
-	.container {
-		.triangle {
-			position: absolute;
-			left: 580px;
-			bottom: 0px;
-			width: 817px;
-			height: 766px;
-			background: linear-gradient(180deg, rgba(0, 0, 0, 0) 57.43%, rgba(0, 0, 0, 0.6) 100%), url('../../../resources/triangle.png') no-repeat;
-		}
-		.photo {
-			position: absolute;
-			left: 637px;
-			bottom: 0px;
-			width: 558px;
-			height: 765px;
-			background: linear-gradient(180deg, rgba(0, 0, 0, 0) 57.43%, rgba(0, 0, 0, 0.6) 100%), url('../../../resources/main-photo.png') no-repeat;
-		}
+	.triangle {
+		position: absolute;
+		left: 580px;
+		bottom: 0px;
+		width: 817px;
+		height: 766px;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0) 57.43%, rgba(0, 0, 0, 0.6) 100%), url('../../../resources/triangle.png') no-repeat;
+	}
+	.photo {
+		position: absolute;
+		left: 637px;
+		bottom: 0px;
+		width: 558px;
+		height: 765px;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0) 57.43%, rgba(0, 0, 0, 0.6) 100%), url('../../../resources/main-photo.png') no-repeat;
 	}
 }

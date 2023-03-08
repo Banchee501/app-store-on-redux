@@ -1,0 +1,40 @@
+.example {
+    margin: 223px 63px 0;
+    .carousel {
+        width: 1314.64px;
+        height: 499.77px;
+        .prev {
+
+        }
+        .next {
+
+        }
+        .example__items {
+            .item {
+                &-photo {
+
+                }
+            }
+        }
+    }
+
+    .title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+        span {
+            color: #FFC700;
+        }
+    }
+    .subtitle {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 39px;
+        color: #B8B8B8;
+    }
+}

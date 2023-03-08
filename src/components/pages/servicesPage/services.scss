@@ -1,103 +1,101 @@
 .services {
-    .container {
-        .title {
-            margin-top: 153px;
-            margin-bottom: 124px;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 72px;
-            line-height: 88px;
-            text-align: center;
-            color: #F0F0F0;
-            span {
-                color: #FFC700
-            }
+    .title {
+        margin-top: 153px;
+        margin-bottom: 124px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 88px;
+        text-align: center;
+        color: #F0F0F0;
+        span {
+            color: #FFC700
         }
-        .services__items {
-            display: grid;
-            grid-template-columns: repeat(3, 334px);
-            grid-column-gap: 42px;
-            grid-row-gap: 131px;
-            margin: 0 160px;
-            .item {
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, 334px);
+        grid-column-gap: 42px;
+        grid-row-gap: 131px;
+        margin: 0 160px;
+        .item {
+            position: relative;
+            background: #0E0E0E;
+            padding: 33px 54px 0;
+            text-align: center;
+            height: 383px;
+            &-title {
+                width: 188px;
+                height: 60px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                color: #F0F0F0;
+            }
+            &-description {
+                margin: 20px 0;
+                width: 215px;
+                height: 100px;
+                font-family: 'Montserrat Alternates';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 20px;
+                color: #F0F0F0;
+            }
+            .more {
+                width: 150px;
+                height: 50px;
+                margin-bottom: 30px;
+                background: #171717;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFC700;
+            }
+            .printer {
                 position: relative;
-                background: #0E0E0E;
-                padding: 33px 54px 0;
-                text-align: center;
-                height: 383px;
-                &-title {
-                    width: 188px;
-                    height: 60px;
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 29px;
-                    color: #F0F0F0;
-                }
-                &-description {
-                    margin: 20px 0;
-                    width: 215px;
-                    height: 100px;
-                    font-family: 'Montserrat Alternates';
-                    font-style: normal;
-                    font-weight: 300;
-                    font-size: 16px;
-                    line-height: 20px;
-                    color: #F0F0F0;
-                }
-                .more {
-                    width: 150px;
-                    height: 50px;
-                    margin-bottom: 30px;
-                    background: #171717;
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 20px;
-                    color: #FFC700;
-                }
-                .printer {
-                    position: relative;
-                    margin-top: -100px;
-                    width: 100%;
-                    height: 100%;
-                    background-image: url('../../../resources/001-printer.png');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    z-index: 2;
-                }
-                .machine {
-                    position: relative;
-                    margin-top: -100px;
-                    width: 100%;
-                    height: 100%;
-                    background-image: url('../../../resources/004-printing-machine.png');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    z-index: 2;
-                }
-                .fever {
-                    position: relative;
-                    margin-top: -100px;
-                    width: 100%;
-                    height: 100%;
-                    background-image: url('../../../resources/005-fever.png');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    z-index: 2;
-                }
-                .highlight {
-                    margin-top: -100px;
-                    position: absolute; 
-                    border-bottom: 108px solid #070707;
-                    border-right: 408px solid transparent;
-                    left: 0;
-                    bottom: 0;
-                    z-index: 1;
-                }
+                margin-top: -100px;
+                width: 100%;
+                height: 100%;
+                background-image: url('../../../resources/001-printer.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                z-index: 2;
+            }
+            .machine {
+                position: relative;
+                margin-top: -100px;
+                width: 100%;
+                height: 100%;
+                background-image: url('../../../resources/004-printing-machine.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                z-index: 2;
+            }
+            .fever {
+                position: relative;
+                margin-top: -100px;
+                width: 100%;
+                height: 100%;
+                background-image: url('../../../resources/005-fever.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                z-index: 2;
+            }
+            .highlight {
+                margin-top: -100px;
+                position: absolute; 
+                border-bottom: 108px solid #070707;
+                border-right: 408px solid transparent;
+                left: 0;
+                bottom: 0;
+                z-index: 1;
             }
         }
     }
