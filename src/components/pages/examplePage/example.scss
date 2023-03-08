@@ -11,8 +11,13 @@
         }
         .example__items {
             .item {
+                height: 425px;
+                background-image: url('../../../resources/background-product.png');
+                background-repeat: no-repeat;
                 &-photo {
-
+                    padding-top: 80px;
+                    padding-left: 20px;
+                    margin: auto;
                 }
             }
         }
